@@ -1,0 +1,49 @@
+{
+    resources: {
+        com.badlogic.gdx.graphics.Color: {
+            yellow: { r: 1, g: 1, b: 0, a: 1 },
+            red: { r: 1, g: 0, b: 0, a: 1 },
+            darkyellow: { r: 0.7, g: 0.7, b: 0.3, a: 1 },
+            green: { r: 0.7174, g: 0.89019, b: 0.11372, a: 1.0 }
+        },
+        com.badlogic.gdx.graphics.g2d.NinePatch: {
+            image: [ 
+                { width: 28, height: 8, x: 0, y: 0 },
+                { width: 8, height: 8, x: 28, y: 0 },
+                { width: 28, height: 8, x: 36, y: 0 },
+                { width: 28, height: 50, x: 0, y: 8 },
+                { width: 8, height: 50, x: 28, y: 8 },
+                { width: 28, height: 50, x: 36, y: 8 },
+                { width: 28, height: 8, x: 0, y: 58 },
+                { width: 8, height: 8, x: 28, y: 58 },
+                { width: 28, height: 8, x: 36, y: 58 }
+            ]
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedNinePatch: {
+            greenimage: {name: image, color: green}
+        },
+        com.badlogic.gdx.graphics.g2d.BitmapFont: {
+            euro-font: { file: euro.fnt }
+        }
+    },
+    styles: {
+        com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+            default: {
+                font: euro-font,
+                fontColor: yellow,
+                downFontColor: darkyellow,
+                up: greenimage
+            }
+        },
+        com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+            default: {
+                font: euro-font,
+                fontColor: yellow
+            },
+            gameover: {
+                font: euro-font,
+                fontColor: red
+            }
+        }
+    }
+}
