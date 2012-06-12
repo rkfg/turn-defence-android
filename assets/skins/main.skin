@@ -8,15 +8,15 @@
         },
         com.badlogic.gdx.graphics.g2d.NinePatch: {
             image: [ 
-                { width: 28, height: 8, x: 0, y: 0 },
-                { width: 8, height: 8, x: 28, y: 0 },
-                { width: 28, height: 8, x: 36, y: 0 },
-                { width: 28, height: 50, x: 0, y: 8 },
-                { width: 8, height: 50, x: 28, y: 8 },
-                { width: 28, height: 50, x: 36, y: 8 },
-                { width: 28, height: 8, x: 0, y: 58 },
-                { width: 8, height: 8, x: 28, y: 58 },
-                { width: 28, height: 8, x: 36, y: 58 }
+                { width: 25, height: 3, x: 0, y: 0 },
+                { width: 78, height: 3, x: 25, y: 0 },
+                { width: 25, height: 3, x: 103, y: 0 },
+                { width: 25, height: 58, x: 0, y: 3 },
+                { width: 78, height: 58, x: 25, y: 3 },
+                { width: 25, height: 58, x: 103, y: 3 },
+                { width: 25, height: 3, x: 0, y: 61 },
+                { width: 78, height: 3, x: 25, y: 61 },
+                { width: 25, height: 3, x: 103, y: 61 }
             ]
         },
         com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedNinePatch: {
